@@ -3,11 +3,16 @@ package main
 import "time"
 
 func main() {
-	println(time.Now().String())
-	println("Original")
+	custom(time.Now().String())
+	custom("Original")
 	Helper()
 }
 
 func Helper() {
-	println("Novo no Original")
+	custom("Novo no Original")
+}
+
+func custom(arg string) {
+	println(arg)
+	println("oi")
 }
