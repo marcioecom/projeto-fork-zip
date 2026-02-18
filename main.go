@@ -8,6 +8,7 @@ func main() {
 	custom(time.Now().String())
 	custom("Original")
 	Helper()
+	Helper()
 }
 
 func Helper() {
