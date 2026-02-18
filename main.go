@@ -6,6 +6,7 @@ func main() {
 	logger(time.Now().String())
 	logger("Original")
 	Helper()
+	Helper()
 }
 
 func Helper() {
